@@ -29,8 +29,9 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 .svg-logo {
@@ -132,15 +133,33 @@
     font-family: 'Open Sans', sans-serif;
     word-spacing: 2px;
     letter-spacing: 1px;
+    color: white;
 }
 
 .line1 {
     font-size: 32px;
     margin-top: 40px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .line2 {
     font-size: 14px;
     color: gray;
+}
+
+.bottom-logo {
+  margin-bottom: 200px;
+}
+
+.marketSpace {
+  margin-top: 20px;
+}
+
+.largeText {
+
+}
+
+.smallText {
+  
 }
