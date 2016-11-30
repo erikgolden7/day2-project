@@ -149,17 +149,21 @@
 }
 
 .bottom-logo {
-  margin-bottom: 200px;
+    margin-bottom: 200px;
 }
 
-.marketSpace {
-  margin-top: 20px;
+.marketSpace1 {
+    margin-top: 35px;
+}
+
+.marketSpace2 {
+    margin-top: 10px;
 }
 
 .largeText {
-
+    font-size: 32px;
 }
 
 .smallText {
-  
+    font-size: 18px;
 }
