@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+.top-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-06.jpg)center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-section {
+    position: relative;
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bottom-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-logo {
+    width:100%;
+}
+
+.marketplace-logo {
+    fill: #fff;
+}
+
+.by-design-logo {
+    width:100px;
+    margin-bottom: 10px;
+}
+
+.inner-content-bottom {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.created-by {
+    font-size: .8rem;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-cta {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px;
+}
+
+.main-cta:hover{
+    color: #f36;
+    border-bottom: 1px solid #f36;
+}
+
+.box1 {
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jon-contino-homepage-tshirt-small.jpg) no-repeat;
+    height: 48vh;
+    width: 46%;
+    background-size: cover;
+    margin: 24px 0 13px 24px
+}
+
+.box2 {
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg) no-repeat;
+    height: 48vh;
+    width: 46%;
+    background-size: cover;
+    margin: 24px 24px 13px 0;
+}
+
+.box3 {
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/mike-kus-homepage-tshirt-large.jpg) center no-repeat;
+    height: 62vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0 24px 13px 24px;
+}
+
+.box4 {
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/daniel-haire-homepage-tshirt-small.jpg) no-repeat;
+    height: 48vh;
+    width: 46%;
+    background-size: cover;
+    margin: 0 0 13px 24px
+}
+
+.box5 {
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alix-sorrell-homepage-tshirt-small.jpg) no-repeat;
+    height: 48vh;
+    width: 46%;
+    background-size: cover;
+    margin: 0 24px 13px 0;
+}
+
+.box6 {
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg) no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0 24px 24px 24px;
+}
+
+.newStyles {
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+.text {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.line1 {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.line2 {
+    font-size: 14px;
+    color: gray;
+}
