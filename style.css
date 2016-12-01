@@ -29,7 +29,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
@@ -73,7 +73,7 @@
 }
 
 .box1 {
-    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jon-contino-homepage-tshirt-small.jpg) no-repeat;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jon-contino-homepage-tshirt-small.jpg) center no-repeat;
     height: 48vh;
     width: 46%;
     background-size: cover;
@@ -81,7 +81,7 @@
 }
 
 .box2 {
-    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg) no-repeat;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg) center no-repeat;
     height: 48vh;
     width: 46%;
     background-size: cover;
@@ -97,7 +97,7 @@
 }
 
 .box4 {
-    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/daniel-haire-homepage-tshirt-small.jpg) no-repeat;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/daniel-haire-homepage-tshirt-small.jpg) center no-repeat;
     height: 48vh;
     width: 46%;
     background-size: cover;
@@ -105,7 +105,7 @@
 }
 
 .box5 {
-    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alix-sorrell-homepage-tshirt-small.jpg) no-repeat;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alix-sorrell-homepage-tshirt-small.jpg) center no-repeat;
     height: 48vh;
     width: 46%;
     background-size: cover;
@@ -113,7 +113,7 @@
 }
 
 .box6 {
-    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg) no-repeat;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg) center no-repeat;
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -132,7 +132,7 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     word-spacing: 2px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: white;
 }
 
@@ -148,15 +148,19 @@
     color: gray;
 }
 
-.bottom-logo {
-    margin-bottom: 200px;
+.bottom-header {
+    margin-top: 100px;
 }
 
-.marketSpace1 {
+.bottom-logo {
+    margin-bottom: 30px;
+}
+
+.largeSpace {
     margin-top: 35px;
 }
 
-.marketSpace2 {
+.smallSpace {
     margin-top: 10px;
 }
 
@@ -165,5 +169,9 @@
 }
 
 .smallText {
-    font-size: 18px;
+    font-size: 12px;
+}
+
+.bottom-menu {
+    margin-bottom: 160px;
 }
